@@ -87,7 +87,7 @@
   --bs-body-font-size: 0.9375rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #3e4676;
+  --bs-body-color: #23472A;
   --bs-body-color-rgb: 62, 70, 118;
   --bs-body-bg: #f4f7fc;
   --bs-body-bg-rgb: 244, 247, 252;
@@ -103,10 +103,10 @@
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #203a45;
   --bs-link-color: #3b7ddd;
-  --bs-link-color-rgb: 59, 125, 221;
+  --bs-link-color-rgb: rgb(28, 119, 21)
   --bs-link-decoration: none;
   --bs-link-hover-color: #2f64b1;
-  --bs-link-hover-color-rgb: 47, 100, 177;
+  --bs-link-hover-color-rgb: rgb(48, 206, 36);
   --bs-link-hover-decoration: underline;
   --bs-code-color: #e83e8c;
   --bs-highlight-bg: #fff3cd;
@@ -2004,9 +2004,9 @@ progress {
 }
 .form-control:focus {
   background-color: #fff;
-  border-color: #9dbeee;
-  box-shadow: 0 0 0 0.25rem rgba(59, 125, 221, 0.25);
-  color: #495057;
+  border-color: #a4ee9d;
+  box-shadow: 0 0 0 0.25rem rgba(59, 221, 121, 0.25);
+  color: #495750;
   outline: 0;
 }
 .form-control::-webkit-date-and-time-value {
@@ -2271,13 +2271,13 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: #9dbeee;
-  box-shadow: 0 0 0 0.25rem rgba(59, 125, 221, 0.25);
+  border-color: #9deeab;
+  box-shadow: 0 0 0 0.25rem rgba(59, 221, 113, 0.25);
   outline: 0;
 }
 .form-check-input:checked {
-  background-color: #3b7ddd;
-  border-color: #3b7ddd;
+  background-color: #3bdd5e;
+  border-color: #3bdd71;
 }
 .form-check-input:checked[type="checkbox"] {
   --bs-form-check-bg-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3E%3C/svg%3E");

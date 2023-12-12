@@ -1,8 +1,20 @@
 :root{
-   
+   --secondary-green: #30CE24;
+   --secondary-green-light: #D4FFCC;
+   --black-text: #3B423A;
+   --yellow-text: #FFF500;
+   --primary-green: #1C7715;
 }
 
+.login-label{
+   color: var(--secondary-green);
+}
 
+.link-reset{
+   &:hover{
+      color: var(--secondary-green);
+   
+}
 
 .login-test {
    font-size: 5rem;
