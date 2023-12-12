@@ -1,39 +1,58 @@
-:root{
-   --secondary-green: #30CE24;
-   --secondary-green-light: #D4FFCC;
-   --black-text: #3B423A;
-   --yellow-text: #FFF500;
-   --primary-green: #1C7715;
+:root {
+   --secondary-green: #30ce24;
+   --secondary-green-light: #d4ffcc;
+   --black-text: #3b423a;
+   --yellow-text: #fff500;
+   --primary-green: #1c7715;
 }
 
-.login-label{
+/* LOGIN PAGE */
+.login-welcome {
+   color: white;
+   font-size: 2rem;
+   font-weight: 700;
+   background-color: #1111113d;
+   padding: 1rem;
+   border-radius: 0.5rem;
+   margin-bottom: 8rem;
+   z-index: 6;
+   position: relative;
+
+   span {
+      color: var(--yellow-text);
+   }
+
+
+   @media (max-width: 768px) {
+      font-size: 1.5rem;
+   }
+}
+
+.login-title {
+   color: var(--primary-green);
+}
+.login-label {
    color: var(--secondary-green);
 }
 
-.link-reset{
-   &:hover{
+.link-reset {
+   &:hover {
       color: var(--secondary-green);
-   
+   }
 }
 
 .login-test {
    font-size: 5rem;
 }
 
-.over {
-    position: absolute;
-    z-index: 2;
+.login-overlay {
+   position: absolute;
+   z-index: 2;
 
-    height: 100vh;
-    width: 100vw;
-    background-image: image("../img/photos/unsplash-1.jpg");
+   height: 100vh;
+   width: 100vw;
 }
 
 .card {
-    z-index: 3
-    
+   z-index: 3;
 }
-
-/* body{
-    background-image: image("../img/photos/unsplash-1.jpg");
-} */

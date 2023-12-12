@@ -9,7 +9,7 @@
       />
       <meta name="description" content="A report system for Mandela School" />
 
-      <title>Mandela-Login</title>
+      <title>Mandela - Login</title>
 
       <link
          href="
@@ -27,7 +27,7 @@
          background-size: cover;
       "
    >
-      <div class="over" style="background-color: rgba(0, 0, 0, 0.6)"></div>
+      <div class="login-overlay" style="background-color: rgba(0, 0, 0, 0.65)"></div>
       <div class="splash active">
          <div class="splash-icon"></div>
       </div>
@@ -38,8 +38,9 @@
                <div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
                   <div class="d-table-cell align-middle">
                      <div class="text-center mt-4">
-                        <h1 class="h2">Welcome back, Linda</h1>
-                        <p class="lead">Sign in to your account to continue</p>
+                        <h1 class="login-welcome ">
+                           WELCOME TO <span>MANDELA SCHOOL</span>
+                        </h1>
                      </div>
 
                      <div class="card">
@@ -47,12 +48,15 @@
                            <div class="m-sm-4">
                               <div class="text-center">
                                  <img
-                                    src="/public/img/avatars/avatar.jpg"
+                                    src="/public/img/brands/logo.png"
                                     alt="Linda Miller"
-                                    class="img-fluid rounded-circle"
-                                    width="132"
-                                    height="132"
+                                    class="img-fluid"
+                                    width="100"
+                                    height="100"
                                  />
+                                 <h3 class="login-title">
+                                    Sign in to your account
+                                 </h3>
                               </div>
                               <form>
                                  <div class="mb-3">
@@ -65,7 +69,7 @@
                                     />
                                  </div>
                                  <div class="mb-3">
-                                    <label class="login-label">Password</label >
+                                    <label class="login-label">Password</label>
                                     <input
                                        class="form-control form-control-lg"
                                        type="password"
@@ -73,7 +77,9 @@
                                        placeholder="Enter your password"
                                     />
                                     <small>
-                                       <a  class="link-reset" href="pages-reset-password.html"
+                                       <a
+                                          class="link-reset"
+                                          href="pages-reset-password.html"
                                           >Forgot password?</a
                                        >
                                     </small>
@@ -97,11 +103,10 @@
                                  </div>
                                  <div class="text-center mt-3">
                                     <a
-                                       class="btn btn-lg btn-primary"
+                                       class="btn btn-xl btn-primary"
                                        href="dashboard-default.html"
                                        >Sign in</a
                                     >
-                                    <!-- <button type="submit" class="btn btn-lg btn-primary">Sign in</button> -->
                                  </div>
                               </form>
                            </div>
